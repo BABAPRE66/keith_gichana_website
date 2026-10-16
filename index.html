@@ -1,101 +1,731 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Keith Gichana — ICT and digital services, plus Urban Walks Fashions shoes in Kenya.">
+
+  <meta name="google-site-verification" content="fNuVrUmun2ETisUb-LO1zsT6_KeR69LCgmIYGaEplOA" />
+
+  <meta name="description" content="Keith Gichana — ICT and digital services, website design, graphic design, and Urban Walks Fashions shoes in Kenya.">
   <meta name="theme-color" content="#111827">
-  <title>Keith Gichana | ICT & Urban Walks Fashions</title>
+
+  <title>Keith Gichana | ICT, Web & Graphic Design | Urban Walks</title>
+
   <link rel="preconnect" href="https://images.unsplash.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+
   <style>
-    :root{--ink:#111827;--blue:#2563eb;--gold:#f5b942;--paper:#f7f8fb;--muted:#64748b;--white:#fff}
-    *{box-sizing:border-box;margin:0;padding:0}
-    html{scroll-behavior:smooth;scroll-padding-top:88px}
-    body{font-family:'DM Sans',Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.65}
-    a{color:inherit}
-    .topbar{position:sticky;top:0;z-index:10;background:rgba(17,24,39,.96);backdrop-filter:blur(12px);box-shadow:0 5px 24px #0b122033}
-    .nav-wrap{max-width:1160px;margin:auto;padding:0 24px;min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}
-    .brand{color:#fff;text-decoration:none;font-weight:800;font-size:1.1rem;letter-spacing:.02em;white-space:nowrap}.brand span{color:var(--gold)}
-    .nav-links{display:flex;align-items:center;gap:26px;list-style:none}.nav-links a{color:#e5e7eb;text-decoration:none;font-size:.92rem;font-weight:600;transition:color .2s}.nav-links a:hover{color:var(--gold)}
-    .nav-links .nav-cta{background:var(--gold);color:#171717;padding:10px 16px;border-radius:999px}.nav-links .nav-cta:hover{background:#ffd274;color:#171717}
-    .menu-toggle{display:none;border:1px solid #ffffff55;background:transparent;color:#fff;border-radius:9px;padding:8px 11px;font-size:1.2rem;cursor:pointer}
-    .hero{min-height:590px;display:grid;place-items:center;text-align:center;color:#fff;padding:90px 22px;background:linear-gradient(110deg,rgba(8,15,31,.82),rgba(17,24,39,.48)),url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=2000&q=85') center/cover}
-    .hero-inner{max-width:800px}.eyebrow{display:inline-block;color:var(--gold);font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;font-weight:800;margin-bottom:16px}
-    .hero h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(2.7rem,7vw,5.3rem);line-height:1.08;margin-bottom:18px}.hero p{font-size:clamp(1rem,2vw,1.2rem);color:#e5e7eb;max-width:650px;margin:0 auto}
-    .actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:30px}
-    .button{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 20px;border-radius:9px;text-decoration:none;font-weight:700;transition:transform .2s,background .2s}.button:hover{transform:translateY(-2px)}.button-gold{background:var(--gold);color:#171717}.button-outline{border:1px solid #ffffff9c;color:#fff;background:#ffffff12}
-    section{padding:78px 22px}.container{max-width:1100px;margin:auto}.section-heading{text-align:center;margin-bottom:38px}.section-heading .eyebrow{color:var(--blue);margin-bottom:8px}.section-heading h2{font-family:'Playfair Display',Georgia,serif;font-size:clamp(2rem,4vw,3rem);line-height:1.2}.section-heading p{color:var(--muted);max-width:680px;margin:10px auto 0}
-    .about{background:#fff}.about-copy{max-width:790px;margin:auto;text-align:center;font-size:1.08rem;color:#475569}
-    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(225px,1fr));gap:18px}.card{background:#fff;padding:25px;border-radius:15px;box-shadow:0 8px 28px #1725540d;border:1px solid #e8edf5}.card-icon{width:46px;height:46px;border-radius:12px;background:#eff6ff;display:grid;place-items:center;font-size:1.35rem;margin-bottom:16px}.service-card{padding:0;overflow:hidden}.service-card img{width:100%;height:145px;object-fit:cover;display:block}.service-copy{padding:19px 21px 22px}.service-copy .card-icon{margin-top:-42px;position:relative;border:3px solid #fff;width:54px;height:54px;font-size:1.45rem}.service-copy h3{margin-bottom:6px}.card h3{font-size:1.1rem;margin-bottom:8px}.card p{color:var(--muted);font-size:.95rem}
-    .shop{background:#111827;color:#fff}.shop .section-heading p{color:#cbd5e1}.shop .section-heading .eyebrow{color:var(--gold)}.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px}.product{background:#fff;color:var(--ink);border-radius:16px;overflow:hidden;box-shadow:0 10px 30px #0003}.product img{width:100%;height:245px;object-fit:cover;display:block;background:#e5e7eb}.product-info{padding:19px}.product-info h3{font-size:1.1rem}.product-info p{font-size:.92rem;color:var(--muted);margin:5px 0 15px}.product-info .button{width:100%;background:#16a34a;color:white;padding:10px}
-    .social-grid{display:flex;justify-content:center;flex-wrap:wrap;gap:13px;margin-top:28px}.social{min-width:145px;display:flex;align-items:center;justify-content:center;gap:9px;padding:13px 18px;border-radius:11px;color:white;text-decoration:none;font-weight:700;transition:transform .2s,opacity .2s}.social:hover{transform:translateY(-3px);opacity:.9}.facebook{background:#1877f2}.instagram{background:linear-gradient(120deg,#833ab4,#fd1d1d,#fcb045)}.whatsapp{background:#16a34a}.tiktok{background:#111;border:1px solid #374151}
-    .contact{background:#eef3fa}.contact-card{max-width:760px;margin:auto;background:#fff;padding:34px;border-radius:18px;box-shadow:0 10px 35px #17255412;text-align:center}.contact-card p{margin:7px 0;color:#475569}.contact-card a:not(.button){color:var(--blue);text-decoration:none}.contact-card .button{margin-top:18px;background:var(--blue);color:#fff}
-    footer{background:#0b1220;color:#cbd5e1;text-align:center;padding:26px 20px;font-size:.9rem}footer strong{color:#fff}
-    @media(max-width:740px){.nav-wrap{min-height:68px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:68px;left:0;right:0;background:#111827;padding:12px 24px 22px;flex-direction:column;align-items:stretch;gap:4px;border-top:1px solid #ffffff18}.nav-links.open{display:flex}.nav-links a{display:block;padding:10px 4px}.nav-links .nav-cta{text-align:center;margin-top:8px}.hero{min-height:520px}.hero h1{font-size:clamp(2.7rem,12vw,4.2rem)}section{padding:62px 18px}.product img{height:220px}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+    :root {
+      --ink: #111827;
+      --blue: #2563eb;
+      --gold: #f5b942;
+      --paper: #f7f8fb;
+      --muted: #64748b;
+      --white: #fff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 88px;
+    }
+
+    body {
+      font-family: 'DM Sans', Arial, sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.65;
+    }
+
+    a { color: inherit; }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(17,24,39,.96);
+      backdrop-filter: blur(12px);
+      box-shadow: 0 5px 24px #0b122033;
+    }
+
+    .nav-wrap {
+      max-width: 1160px;
+      margin: auto;
+      padding: 0 24px;
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 1.1rem;
+      letter-spacing: .02em;
+      white-space: nowrap;
+    }
+
+    .brand span { color: var(--gold); }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 26px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: #e5e7eb;
+      text-decoration: none;
+      font-size: .92rem;
+      font-weight: 600;
+      transition: color .2s;
+    }
+
+    .nav-links a:hover { color: var(--gold); }
+
+    .nav-links .nav-cta {
+      background: var(--gold);
+      color: #171717;
+      padding: 10px 16px;
+      border-radius: 999px;
+    }
+
+    .nav-links .nav-cta:hover {
+      background: #ffd274;
+      color: #171717;
+    }
+
+    .menu-toggle {
+      display: none;
+      border: 1px solid #ffffff55;
+      background: transparent;
+      color: #fff;
+      border-radius: 9px;
+      padding: 8px 11px;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+
+    .hero {
+      min-height: 590px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      color: #fff;
+      padding: 90px 22px;
+      background:
+        linear-gradient(110deg, rgba(8,15,31,.82), rgba(17,24,39,.48)),
+        url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=2000&q=85') center/cover;
+    }
+
+    .hero-inner { max-width: 800px; }
+
+    .eyebrow {
+      display: inline-block;
+      color: var(--gold);
+      font-size: .8rem;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(2.7rem, 7vw, 5.3rem);
+      line-height: 1.08;
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      font-size: clamp(1rem, 2vw, 1.2rem);
+      color: #e5e7eb;
+      max-width: 650px;
+      margin: 0 auto;
+    }
+
+    .actions {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 20px;
+      border-radius: 9px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: transform .2s, background .2s;
+    }
+
+    .button:hover { transform: translateY(-2px); }
+
+    .button-gold {
+      background: var(--gold);
+      color: #171717;
+    }
+
+    .button-outline {
+      border: 1px solid #ffffff9c;
+      color: #fff;
+      background: #ffffff12;
+    }
+
+    section { padding: 78px 22px; }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section-heading {
+      text-align: center;
+      margin-bottom: 38px;
+    }
+
+    .section-heading .eyebrow {
+      color: var(--blue);
+      margin-bottom: 8px;
+    }
+
+    .section-heading h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.2;
+    }
+
+    .section-heading p {
+      color: var(--muted);
+      max-width: 680px;
+      margin: 10px auto 0;
+    }
+
+    .about { background: #fff; }
+
+    .about-copy {
+      max-width: 790px;
+      margin: auto;
+      text-align: center;
+      font-size: 1.08rem;
+      color: #475569;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 8px 28px #1725540d;
+      border: 1px solid #e8edf5;
+    }
+
+    .card-icon {
+      width: 46px;
+      height: 46px;
+      border-radius: 12px;
+      background: #eff6ff;
+      display: grid;
+      place-items: center;
+      font-size: 1.35rem;
+      margin-bottom: 16px;
+    }
+
+    .service-card {
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .service-card img {
+      width: 100%;
+      height: 145px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .service-copy { padding: 19px 21px 22px; }
+
+    .service-copy .card-icon {
+      margin-top: -42px;
+      position: relative;
+      border: 3px solid #fff;
+      width: 54px;
+      height: 54px;
+      font-size: 1.45rem;
+    }
+
+    .service-copy h3 { margin-bottom: 6px; }
+
+    .card h3 {
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: .95rem;
+    }
+
+    .shop {
+      background: #111827;
+      color: #fff;
+    }
+
+    .shop .section-heading p { color: #cbd5e1; }
+
+    .shop .section-heading .eyebrow { color: var(--gold); }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 22px;
+    }
+
+    .product {
+      background: #fff;
+      color: var(--ink);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px #0003;
+    }
+
+    .product img {
+      width: 100%;
+      height: 245px;
+      object-fit: cover;
+      display: block;
+      background: #e5e7eb;
+    }
+
+    .product-info { padding: 19px; }
+
+    .product-info h3 { font-size: 1.1rem; }
+
+    .product-info p {
+      font-size: .92rem;
+      color: var(--muted);
+      margin: 5px 0 15px;
+    }
+
+    .product-info .button {
+      width: 100%;
+      background: #16a34a;
+      color: white;
+      padding: 10px;
+    }
+
+    .social-grid {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 28px;
+    }
+
+    .social {
+      min-width: 145px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 13px 18px;
+      border-radius: 11px;
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      transition: transform .2s, opacity .2s;
+    }
+
+    .social:hover {
+      transform: translateY(-3px);
+      opacity: .9;
+    }
+
+    .facebook { background: #1877f2; }
+
+    .instagram {
+      background: linear-gradient(120deg, #833ab4, #fd1d1d, #fcb045);
+    }
+
+    .whatsapp { background: #16a34a; }
+
+    .tiktok {
+      background: #111;
+      border: 1px solid #374151;
+    }
+
+    .contact { background: #eef3fa; }
+
+    .contact-card {
+      max-width: 760px;
+      margin: auto;
+      background: #fff;
+      padding: 34px;
+      border-radius: 18px;
+      box-shadow: 0 10px 35px #17255412;
+      text-align: center;
+    }
+
+    .contact-card p {
+      margin: 7px 0;
+      color: #475569;
+    }
+
+    .contact-card a:not(.button) {
+      color: var(--blue);
+      text-decoration: none;
+    }
+
+    .contact-card .button {
+      margin-top: 18px;
+      background: var(--blue);
+      color: #fff;
+    }
+
+    footer {
+      background: #0b1220;
+      color: #cbd5e1;
+      text-align: center;
+      padding: 26px 20px;
+      font-size: .9rem;
+    }
+
+    footer strong { color: #fff; }
+
+    @media (max-width: 740px) {
+      .nav-wrap { min-height: 68px; }
+
+      .menu-toggle { display: block; }
+
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 68px;
+        left: 0;
+        right: 0;
+        background: #111827;
+        padding: 12px 24px 22px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 4px;
+        border-top: 1px solid #ffffff18;
+      }
+
+      .nav-links.open { display: flex; }
+
+      .nav-links a {
+        display: block;
+        padding: 10px 4px;
+      }
+
+      .nav-links .nav-cta {
+        text-align: center;
+        margin-top: 8px;
+      }
+
+      .hero { min-height: 520px; }
+
+      .hero h1 { font-size: clamp(2.7rem, 12vw, 4.2rem); }
+
+      section { padding: 62px 18px; }
+
+      .product img { height: 220px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+
+      *, *::before, *::after {
+        transition: none !important;
+      }
+    }
   </style>
 </head>
+
 <body>
   <nav class="topbar" aria-label="Main navigation">
     <div class="nav-wrap">
       <a class="brand" href="#home">KEITH <span>GICHANA</span></a>
-      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">☰</button>
+
+      <button class="menu-toggle" type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-links">☰</button>
+
       <ul class="nav-links" id="nav-links">
-        <li><a href="#about">About</a></li><li><a href="#skills">Digital Services</a></li><li><a href="#business">Urban Walks</a></li><li><a href="#social">Social Media</a></li><li><a class="nav-cta" href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Digital Services</a></li>
+        <li><a href="#business">Urban Walks</a></li>
+        <li><a href="#social">Social Media</a></li>
+        <li><a class="nav-cta" href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
+
   <main>
     <header class="hero" id="home">
-      <div class="hero-inner"><span class="eyebrow">Technology · Style · Service</span><h1>Welcome to Keith Gichana</h1><p>ICT support and digital services, alongside fresh footwear and everyday style from Urban Walks Fashions.</p><div class="actions"><a class="button button-gold" href="#business">Explore Urban Walks <span aria-hidden="true">→</span></a><a class="button button-outline" href="#contact">Get in touch</a></div></div>
+      <div class="hero-inner">
+        <span class="eyebrow">Technology · Style · Service</span>
+        <h1>Welcome to Keith Gichana</h1>
+        <p>ICT support and digital services, website and graphic design, alongside fresh footwear and everyday style from Urban Walks Fashions.</p>
+        <div class="actions">
+          <a class="button button-gold" href="#business">Explore Urban Walks <span aria-hidden="true">→</span></a>
+          <a class="button button-outline" href="#contact">Get in touch</a>
+        </div>
+      </div>
     </header>
-    <section class="about" id="about"><div class="container"><div class="section-heading"><span class="eyebrow">A little about me</span><h2>Practical tech. Personal service.</h2></div><p class="about-copy">I am an ICT professional with skills in computer troubleshooting, networking, software installation, hardware support and digital services. I enjoy learning new technology and building practical solutions for people and businesses.</p></div></section>
-    <section id="skills"><div class="container"><div class="section-heading"><span class="eyebrow">What I do</span><h2>Digital & ICT Services</h2><p>Support with everyday technology, online tasks, business tools and creative digital work. Contact me to confirm availability and pricing.</p></div><div class="cards">
-      <article class="card service-card"><img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80" alt="Computer workstation for repair and support" loading="lazy"><div class="service-copy"><div class="card-icon">🖥️</div><h3>Computer & Laptop Support</h3><p>Diagnosis, troubleshooting, software installation, updates, basic maintenance and setup.</p></div></article>
-      <article class="card service-card"><img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80" alt="Network server equipment" loading="lazy"><div class="service-copy"><div class="card-icon">🌐</div><h3>Networking & Internet</h3><p>Wi-Fi and router setup, connectivity troubleshooting, printer sharing and basic network configuration.</p></div></article>
-      <article class="card service-card"><img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=800&q=80" alt="Writing and document preparation" loading="lazy"><div class="service-copy"><div class="card-icon">📝</div><h3>Typing & Document Preparation</h3><p>Typing, formatting, CVs, letters, reports, proposals and professional document layout.</p></div></article>
-      <article class="card service-card"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="Online services on a laptop" loading="lazy"><div class="service-copy"><div class="card-icon">🧾</div><h3>Online Applications</h3><p>Guidance with online forms, account registration, application submissions and document uploads.</p></div></article>
-      <article class="card service-card"><img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80" alt="Organized business records and finance" loading="lazy"><div class="service-copy"><div class="card-icon">📊</div><h3>Office & Spreadsheet Work</h3><p>Microsoft Word, Excel and PowerPoint assistance, data entry, tables, reports and presentations.</p></div></article>
-      <article class="card service-card"><img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=800&q=80" alt="Colorful graphic design work" loading="lazy"><div class="service-copy"><div class="card-icon">🎨</div><h3>Graphic Design</h3><p>Posters, flyers, invitations, simple logos and branded social media graphics.</p></div></article>
-      <article class="card service-card"><img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80" alt="Social media content displayed on a phone" loading="lazy"><div class="service-copy"><div class="card-icon">📱</div><h3>Social Media Content</h3><p>Designing and preparing digital posts, promotional artwork and simple content calendars.</p></div></article>
-      <article class="card service-card"><img src="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=800&q=80" alt="Website design on a computer screen" loading="lazy"><div class="service-copy"><div class="card-icon">💻</div><h3>Website & Email Setup</h3><p>Basic website updates, domain and email setup guidance, and help getting your business online.</p></div></article>
-      <article class="card service-card"><img src="https://images.unsplash.com/photo-1587440871875-191322ee64b0?auto=format&fit=crop&w=800&q=80" alt="Digital files stored and organized" loading="lazy"><div class="service-copy"><div class="card-icon">📂</div><h3>Scanning, Printing & File Help</h3><p>Document scanning, PDF conversion, printing preparation, file organization and backup guidance.</p></div></article>
-      <article class="card service-card"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="Secure digital access on a laptop" loading="lazy"><div class="service-copy"><div class="card-icon">🔐</div><h3>Digital Safety & Account Help</h3><p>Basic device security, password and account recovery guidance, and safe-use support.</p></div></article>
-      <article class="card service-card"><img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=800&q=80" alt="People learning and working together" loading="lazy"><div class="service-copy"><div class="card-icon">🧑‍🏫</div><h3>Basic Digital Skills</h3><p>One-to-one guidance on using computers, email, the internet and common office applications.</p></div></article>
-      <article class="card service-card"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="Mobile phone used for digital services" loading="lazy"><div class="service-copy"><div class="card-icon">📲</div><h3>Phone & App Assistance</h3><p>Help with smartphone setup, app installation, updates, data transfer and basic troubleshooting.</p></div></article>
-    </div></div></section>    <section class="shop" id="business"><div class="container"><div class="section-heading"><span class="eyebrow">Step loud, walk urban</span><h2>Urban Walks Fashions</h2><p>Stylish, affordable shoes. Browse a few of our popular styles and message us to check current stock, sizes and prices.</p></div><div class="products">
-      <article class="product"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80" alt="Red and white sporty sneaker" loading="lazy"><div class="product-info"><h3>Everyday Sneakers</h3><p>Casual comfort for your daily walk.</p><a class="button" href="https://wa.me/254115257258?text=Hi%20Urban%20Walks%2C%20I%27m%20interested%20in%20your%20Everyday%20Sneakers." target="_blank" rel="noopener">Ask about this style</a></div></article>
-      <article class="product"><img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=80" alt="Elegant women's fashion shoes" loading="lazy"><div class="product-info"><h3>Ladies' Fashion Shoes</h3><p>A polished look for outings and special days.</p><a class="button" href="https://wa.me/254115257258?text=Hi%20Urban%20Walks%2C%20I%27m%20interested%20in%20your%20Ladies%27%20Fashion%20Shoes." target="_blank" rel="noopener">Ask about this style</a></div></article>
-      <article class="product"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80&sat=-40" alt="Sport style shoes" loading="lazy"><div class="product-info"><h3>Sport & Street Style</h3><p>Easy-to-wear style for an active day.</p><a class="button" href="https://wa.me/254115257258?text=Hi%20Urban%20Walks%2C%20I%27m%20interested%20in%20your%20Sport%20%26%20Street%20Style%20shoes." target="_blank" rel="noopener">Ask about this style</a></div></article>
-    </div></div></section>
-    <section id="social"><div class="container"><div class="section-heading"><span class="eyebrow">Keep in touch</span><h2>Find me on social media</h2><p>Follow for updates, new shoe arrivals and digital service news.</p></div><div class="social-grid">
-      <!-- Social profiles supplied by Keith Gichana. -->
-      <a class="social facebook" href="https://www.facebook.com/IbachoTrends" target="_blank" rel="noopener" aria-label="Facebook: Ibacho Trends">📘 Facebook</a>
-      <a class="social instagram" href="https://www.instagram.com/Keith_urbanwalks/" target="_blank" rel="noopener" aria-label="Instagram: Keith urbanwalks">📸 Instagram</a>
-      <a class="social whatsapp" href="https://wa.me/254115257258" target="_blank" rel="noopener" aria-label="Contact on WhatsApp">💬 WhatsApp</a>
-      <a class="social tiktok" href="https://www.tiktok.com/@brandplugkenya" target="_blank" rel="noopener" aria-label="TikTok: Brandplug Kenya">♪ TikTok</a>
-    </div></div></section>
-    <section class="contact" id="contact"><div class="container"><div class="section-heading"><span class="eyebrow">Let's talk</span><h2>Contact Keith</h2></div><div class="contact-card"><p><strong>Phone:</strong> <a href="tel:+254115257258">0115 257 258</a></p><p><strong>Email:</strong> <a href="mailto:gichanakeith300@gmail.com">gichanakeith300@gmail.com</a></p><p><strong>Location:</strong> Kenya</p><a class="button" href="mailto:gichanakeith300@gmail.com">Send me an email</a></div></div></section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">A little about me</span>
+          <h2>Practical tech. Personal service.</h2>
+        </div>
+        <p class="about-copy">I am an ICT professional with skills in computer troubleshooting, networking, software installation, hardware support and digital services. I also create websites and graphic designs for businesses and individuals. I enjoy learning new technology and building practical solutions for people and businesses.</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">What I do</span>
+          <h2>Digital & ICT Services</h2>
+          <p>Support with everyday technology, online tasks, business tools and creative digital work. Contact me to confirm availability and pricing.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card service-card">
+            <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80" alt="Computer workstation for repair and support" loading="lazy">
+            <div class="service-copy">
+              <div class="card-icon">🖥️</div>
+              <h3>Computer & Laptop Support</h3>
+              <p>Diagnosis, troubleshooting, software installation, updates, basic maintenance and setup.</p>
+            </div>
+          </article>
+
+          <article class="card service-card">
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80" alt="Network server equipment" loading="lazy">
+            <div class="service-copy">
+              <div class="card-icon">🌐</div>
+              <h3>Networking & Internet</h3>
+              <p>Wi-Fi and router setup, connectivity troubleshooting, printer sharing and basic network configuration.</p>
+            </div>
+          </article>
+
+          <article class="card service-card">
+            <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=800&q=80" alt="Writing and document preparation" loading="lazy">
+            <div class="service-copy">
+              <div class="card-icon">📝</div>
+              <h3>Typing & Document Preparation</h3>
+              <p>Typing, formatting, CVs, letters, reports, proposals and professional document layout.</p>
+            </div>
+          </article>
+
+          <article class="card service-card">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="Online services on a laptop" loading="lazy">
+            <div class="service-copy">
+              <div class="card-icon">🧾</div>
+              <h3>Online Applications</h3>
+              <p>Guidance with online forms, account registration, application submissions and document uploads.</p>
+            </div>
+          </article>
+
+          <article class="card service-card">
+            <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80" alt="Organized business records and finance" loading="lazy">
+            <div class="service-copy">
+              <div class="card-icon">📊</div>
+              <h3>Office & Spreadsheet Work</h3>
+              <p>Microsoft Word, Excel and PowerPoint assistance, data entry, tables, reports and presentations.</p>
+            </div>
+          </article>
+
+          <article class="card service-card">
+            <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=800&q=80" alt="Graphic design work" loading="lazy">
+            <div class="service-copy">
+              <div class="card-icon">🎨</div>
+              <h3>Graphic Design</h3>
+              <p>Posters, flyers, invitations, simple logos and branded social media graphics.</p>
+            </div>
+          </article>
+
+          <article class="card service-card">
+            <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80" alt="Social media content on a phone" loading="lazy">
+            <div class="service-copy">
+              <div class="card-icon">📱</div>
+              <h3>Social Media Content</h3>
+              <p>Designing promotional artwork, digital posts and simple content calendars.</p>
+            </div>
+          </article>
+
+          <article class="card service-card">
+            <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=800&q=80" alt="Website design on a computer screen" loading="lazy">
+            <div class="service-copy">
+              <div class="card-icon">💻</div>
+              <h3>Website Design</h3>
+              <p>Website design for businesses and individuals, website updates and guidance on getting your business online.</p>
+            </div>
+          </article>
+
+          <article class="card service-card">
+            <img src="https://images.unsplash.com/photo-1587440871875-191322ee64b0?auto=format&fit=crop&w=800&q=80" alt="Digital files and computer work" loading="lazy">
+            <div class="service-copy">
+              <div class="card-icon">📂</div>
+              <h3>Scanning, Printing & File Help</h3>
+              <p>Document scanning, PDF conversion, printing preparation, file organization and backup guidance.</p>
+            </div>
+          </article>
+
+          <article class="card service-card">
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80" alt="Computer systems and digital security" loading="lazy">
+            <div class="service-copy">
+              <div class="card-icon">🔐</div>
+              <h3>Digital Safety & Account Help</h3>
+              <p>Basic device security, password and account recovery guidance, and safe-use support.</p>
+            </div>
+          </article>
+
+          <article class="card service-card">
+            <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=800&q=80" alt="People learning and working together" loading="lazy">
+            <div class="service-copy">
+              <div class="card-icon">🧑‍🏫</div>
+              <h3>Basic Digital Skills</h3>
+              <p>One-to-one guidance on computers, email, the internet and common office applications.</p>
+            </div>
+          </article>
+
+          <article class="card service-card">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="Mobile phone used for digital services" loading="lazy">
+            <div class="service-copy">
+              <div class="card-icon">📲</div>
+              <h3>Phone & App Assistance</h3>
+              <p>Help with smartphone setup, app installation, updates, data transfer and basic troubleshooting.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="shop" id="business">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Step loud, walk urban</span>
+          <h2>Urban Walks Fashions</h2>
+          <p>Stylish, affordable shoes. Browse a few of our popular styles and message us to check current stock, sizes and prices.</p>
+        </div>
+
+        <div class="products">
+          <article class="product">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80" alt="Red and white sporty sneaker" loading="lazy">
+            <div class="product-info">
+              <h3>Everyday Sneakers</h3>
+              <p>Casual comfort for your daily walk.</p>
+              <a class="button" href="https://wa.me/254115257258?text=Hi%20Urban%20Walks%2C%20I%27m%20interested%20in%20your%20Everyday%20Sneakers" target="_blank" rel="noopener">Ask about this style</a>
+            </div>
+          </article>
+
+          <article class="product">
+            <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=80" alt="Women's fashion shoes" loading="lazy">
+            <div class="product-info">
+              <h3>Ladies' Fashion Shoes</h3>
+              <p>A polished look for outings and special days.</p>
+              <a class="button" href="https://wa.me/254115257258?text=Hi%20Urban%20Walks%2C%20I%27m%20interested%20in%20your%20Ladies%27%20Fashion%20Shoes" target="_blank" rel="noopener">Ask about this style</a>
+            </div>
+          </article>
+
+          <article class="product">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80&sat=-40" alt="Sport style shoes" loading="lazy">
+            <div class="product-info">
+              <h3>Sport & Street Style</h3>
+              <p>Easy-to-wear style for an active day.</p>
+              <a class="button" href="https://wa.me/254115257258?text=Hi%20Urban%20Walks%2C%20I%27m%20interested%20in%20your%20Sport%20%26%20Street%20Style%20shoes" target="_blank" rel="noopener">Ask about this style</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="social">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Keep in touch</span>
+          <h2>Find me on social media</h2>
+          <p>Follow for updates, new shoe arrivals and digital service news.</p>
+        </div>
+
+        <div class="social-grid">
+          <a class="social facebook" href="https://www.facebook.com/IbachoTrends" target="_blank" rel="noopener" aria-label="Facebook: Ibacho Trends">📘 Facebook</a>
+          <a class="social instagram" href="https://www.instagram.com/keith_urbanwalks/" target="_blank" rel="noopener" aria-label="Instagram: Keith urbanwalks">📸 Instagram</a>
+          <a class="social whatsapp" href="https://wa.me/254115257258" target="_blank" rel="noopener" aria-label="Contact on WhatsApp">💬 WhatsApp</a>
+          <a class="social tiktok" href="https://www.tiktok.com/@brandplugkenya" target="_blank" rel="noopener" aria-label="TikTok: Brandplug Kenya">♪ TikTok</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Let's talk</span>
+          <h2>Contact Keith</h2>
+        </div>
+
+        <div class="contact-card">
+          <p><strong>Phone:</strong> <a href="tel:+254115257258">0115 257 258</a></p>
+          <p><strong>Email:</strong> <a href="mailto:gichanakeith300@gmail.com">gichanakeith300@gmail.com</a></p>
+          <p><strong>Location:</strong> Kenya</p>
+          <a class="button" href="mailto:gichanakeith300@gmail.com">Send me an email</a>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer><p>© 2026 <strong>Keith Gichana</strong>. All rights reserved.</p><p>Urban Walks Fashions · Step loud, walk urban.</p></footer>
+
+  <footer>
+    <p>© 2026 <strong>Keith Gichana</strong>. All rights reserved.</p>
+    <p>Urban Walks Fashions · Step loud, walk urban.</p>
+  </footer>
+
   <script>
     const menuButton = document.querySelector('.menu-toggle');
     const menu = document.querySelector('#nav-links');
+
     menuButton.addEventListener('click', () => {
       const isOpen = menu.classList.toggle('open');
       menuButton.setAttribute('aria-expanded', String(isOpen));
-      menuButton.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
+      menuButton.setAttribute(
+        'aria-label',
+        isOpen ? 'Close navigation menu' : 'Open navigation menu'
+      );
       menuButton.textContent = isOpen ? '×' : '☰';
     });
-    menu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
-      menu.classList.remove('open');
-      menuButton.setAttribute('aria-expanded', 'false');
-      menuButton.setAttribute('aria-label', 'Open navigation menu');
-      menuButton.textContent = '☰';
-    }));
+
+    menu.querySelectorAll('a').forEach(link =>
+      link.addEventListener('click', () => {
+        menu.classList.remove('open');
+        menuButton.setAttribute('aria-expanded', 'false');
+        menuButton.setAttribute('aria-label', 'Open navigation menu');
+        menuButton.textContent = '☰';
+      })
+    );
   </script>
 </body>
 </html>
-
