@@ -1,84 +1,188 @@
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Keith Gichana | MOBYSIR — Digital Services & Urbanwalks Kenya</title>
+
+  <meta name="description" content="Official website of Keith Gichana, also known as MOBYSIR. Discover website design, graphic design, ICT support, shoes, football jerseys and T-shirts from Urbanwalks in Kenya.">
+  <meta name="author" content="Keith Gichana Mobisa">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#0b0d12">
+
+  <link rel="canonical" href="https://mobysir.github.io/keith_gichana_website/">
 
   <meta name="google-site-verification" content="fNuVrUmun2ETisUb-LO1zsT6_KeR69LCgmIYGaEplOA">
 
-  <title>Keith Gichana | Urbanwalks - Website & Graphic Design</title>
-  <meta name="description" content="Visit Keith Gichana's official website for website design, graphic design, ICT support and digital services through Urbanwalks in Kenya.">
-  <meta name="author" content="Keith Gichana">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://babapre66.github.io/keith_gichana_website/">
-
-  <meta name="theme-color" content="#111827">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Keith Gichana | Urbanwalks">
-  <meta property="og:description" content="Website design, graphic design, ICT support and digital services by Keith Gichana in Kenya.">
-  <meta property="og:url" content="https://babapre66.github.io/keith_gichana_website/">
+  <meta property="og:site_name" content="MOBYSIR">
+  <meta property="og:title" content="Keith Gichana | MOBYSIR">
+  <meta property="og:description" content="Digital creativity, website design, graphic design, ICT support and Urbanwalks fashion.">
+  <meta property="og:url" content="https://mobysir.github.io/keith_gichana_website/">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Keith Gichana | MOBYSIR">
+  <meta name="twitter:description" content="Digital services and Urbanwalks fashion in Kenya.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230b0d12'/%3E%3Ctext x='50' y='64' font-size='39' font-family='Arial' font-weight='bold' text-anchor='middle' fill='%23d9ff62'%3EMS%3C/text%3E%3C/svg%3E">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Keith Gichana Mobisa",
+    "alternateName": ["Keith Gichana", "MOBYSIR"],
+    "url": "https://mobysir.github.io/keith_gichana_website/",
+    "jobTitle": "ICT Professional, Website Designer and Graphic Designer",
+    "description": "ICT professional in Kenya offering website design, graphic design and digital support services.",
+    "sameAs": [
+      "https://github.com/mobysir",
+      "https://www.instagram.com/keith_urbanwalks/",
+      "https://www.facebook.com/IbachoTrends",
+      "https://www.tiktok.com/@brandplugkenya"
+    ]
+  }
+  </script>
 
   <style>
     :root {
-      --ink: #111827;
-      --blue: #2563eb;
-      --gold: #f5b942;
-      --paper: #f7f8fb;
-      --muted: #64748b;
-      --white: #fff;
+      color-scheme: dark;
+      --bg: #0b0d12;
+      --surface: #12151d;
+      --surface-2: #191d27;
+      --text: #f5f6f8;
+      --muted: #a4a9b6;
+      --accent: #d9ff62;
+      --accent-text: #14180a;
+      --border: rgba(255,255,255,.10);
+      --header: rgba(11,13,18,.86);
+      --shadow: 0 22px 65px rgba(0,0,0,.24);
+      --radius: 22px;
     }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body.light {
+      color-scheme: light;
+      --bg: #f5f6f0;
+      --surface: #ffffff;
+      --surface-2: #e9ece4;
+      --text: #151811;
+      --muted: #60675c;
+      --accent: #b8e63f;
+      --accent-text: #151811;
+      --border: rgba(15,20,10,.12);
+      --header: rgba(245,246,240,.90);
+      --shadow: 0 22px 65px rgba(20,30,10,.09);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
     html {
       scroll-behavior: smooth;
-      scroll-padding-top: 88px;
+      scroll-padding-top: 100px;
     }
 
     body {
-      font-family: 'DM Sans', Arial, sans-serif;
-      background: var(--paper);
-      color: var(--ink);
-      line-height: 1.65;
+      font-family: "DM Sans", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      transition: background .25s, color .25s;
     }
+
+    body, button, input { font-family: "DM Sans", Arial, sans-serif; }
 
     a { color: inherit; }
 
-    .topbar {
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      background: rgba(17,24,39,.96);
-      backdrop-filter: blur(12px);
-      box-shadow: 0 5px 24px #0b122033;
+    button, input { font: inherit; }
+
+    button:focus-visible,
+    a:focus-visible,
+    input:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 4px;
     }
 
-    .nav-wrap {
-      max-width: 1160px;
-      margin: auto;
-      padding: 0 24px;
-      min-height: 76px;
+    img { max-width: 100%; }
+
+    .container {
+      width: min(1160px, calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 15px;
+      z-index: 1000;
+      background: var(--accent);
+      color: var(--accent-text);
+      padding: 10px 16px;
+      border-radius: 10px;
+    }
+
+    .skip-link:focus { top: 12px; }
+
+    .announcement {
+      background: var(--accent);
+      color: var(--accent-text);
+      text-align: center;
+      padding: 8px 12px;
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: .04em;
+    }
+
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--header);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(18px);
+    }
+
+    .nav {
+      min-height: 78px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 24px;
+      gap: 22px;
     }
 
-    .brand {
-      color: #fff;
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
       text-decoration: none;
       font-weight: 800;
-      font-size: 1.1rem;
-      letter-spacing: .02em;
-      white-space: nowrap;
+      font-size: 1.2rem;
+      letter-spacing: -.04em;
     }
 
-    .brand span { color: var(--gold); }
+    .logo-mark {
+      width: 42px;
+      height: 42px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      background: var(--accent);
+      color: var(--accent-text);
+      font-size: .9rem;
+      letter-spacing: -.04em;
+    }
+
+    .logo span:last-child { color: var(--accent); }
 
     .nav-links {
       display: flex;
@@ -88,622 +192,1483 @@
     }
 
     .nav-links a {
-      color: #e5e7eb;
       text-decoration: none;
-      font-size: .92rem;
-      font-weight: 600;
+      font-size: .88rem;
+      font-weight: 700;
+      color: var(--muted);
       transition: color .2s;
     }
 
-    .nav-links a:hover { color: var(--gold); }
+    .nav-links a:hover { color: var(--text); }
 
-    .nav-links .nav-cta {
-      background: var(--gold);
-      color: #171717;
-      padding: 10px 16px;
-      border-radius: 999px;
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
 
-    .nav-links .nav-cta:hover {
-      background: #ffd274;
-      color: #171717;
-    }
-
-    .menu-toggle {
-      display: none;
-      border: 1px solid #ffffff55;
-      background: transparent;
-      color: #fff;
-      border-radius: 9px;
-      padding: 8px 11px;
-      font-size: 1.2rem;
+    .icon-button {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 13px;
       cursor: pointer;
+      font-size: 1.05rem;
+    }
+
+    .menu-toggle { display: none; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      border: 1px solid transparent;
+      border-radius: 13px;
+      padding: 13px 19px;
+      font-size: .9rem;
+      font-weight: 800;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform .2s, background .2s, border-color .2s;
+    }
+
+    .btn:hover { transform: translateY(-2px); }
+
+    .btn-primary {
+      background: var(--accent);
+      color: var(--accent-text);
+    }
+
+    .btn-secondary {
+      background: var(--surface);
+      color: var(--text);
+      border-color: var(--border);
+    }
+
+    .btn-whatsapp {
+      background: #178b53;
+      color: white;
     }
 
     .hero {
-      min-height: 590px;
-      display: grid;
-      place-items: center;
-      text-align: center;
-      color: #fff;
-      padding: 90px 22px;
-      background:
-        linear-gradient(110deg, rgba(8,15,31,.82), rgba(17,24,39,.48)),
-        url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=2000&q=85') center/cover;
+      position: relative;
+      overflow: hidden;
+      padding: 105px 0 100px;
+      isolation: isolate;
     }
 
-    .hero-inner { max-width: 850px; }
+    .hero::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      width: 560px;
+      height: 560px;
+      right: -190px;
+      top: -160px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(217,255,98,.13), transparent 68%);
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      align-items: center;
+      gap: 58px;
+    }
 
     .eyebrow {
-      display: inline-block;
-      color: var(--gold);
-      font-size: .8rem;
-      letter-spacing: .18em;
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      color: var(--accent);
       text-transform: uppercase;
+      font-size: .75rem;
       font-weight: 800;
-      margin-bottom: 16px;
+      letter-spacing: .16em;
+      margin-bottom: 20px;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 26px;
+      height: 2px;
+      background: currentColor;
+    }
+
+    h1, h2, h3 {
+      font-family: "Manrope", "DM Sans", Arial, sans-serif;
+      letter-spacing: -.045em;
+      line-height: 1.15;
     }
 
     .hero h1 {
-      font-family: 'Playfair Display', Georgia, serif;
-      font-size: clamp(2.5rem, 7vw, 5rem);
-      line-height: 1.12;
-      margin-bottom: 18px;
+      font-size: clamp(3rem, 6.2vw, 5.7rem);
+      max-width: 720px;
+      font-weight: 800;
     }
 
-    .hero p {
-      font-size: clamp(1rem, 2vw, 1.2rem);
-      color: #e5e7eb;
-      max-width: 680px;
-      margin: 0 auto;
+    .hero h1 .highlight { color: var(--accent); }
+
+    .hero-description {
+      max-width: 600px;
+      margin-top: 23px;
+      color: var(--muted);
+      font-size: 1.06rem;
     }
 
-    .actions {
+    .hero-actions {
       display: flex;
-      justify-content: center;
       flex-wrap: wrap;
       gap: 12px;
       margin-top: 30px;
     }
 
-    .button {
-      display: inline-flex;
+    .hero-note {
+      margin-top: 24px;
+      font-size: .83rem;
+      color: var(--muted);
+    }
+
+    .hero-note strong { color: var(--text); }
+
+    .hero-visual {
+      position: relative;
+      min-height: 470px;
+      display: grid;
+      place-items: center;
+    }
+
+    .hero-photo {
+      width: 100%;
+      height: 440px;
+      object-fit: cover;
+      border-radius: 30px;
+      border: 1px solid var(--border);
+      filter: saturate(.82);
+    }
+
+    .floating-card {
+      position: absolute;
+      bottom: 18px;
+      left: -25px;
+      max-width: 260px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+      box-shadow: var(--shadow);
+    }
+
+    .floating-card strong {
+      display: block;
+      font-size: 1rem;
+    }
+
+    .floating-card p {
+      color: var(--muted);
+      font-size: .82rem;
+      margin-top: 5px;
+    }
+
+    .status-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      margin-right: 6px;
+    }
+
+    .trust-strip {
+      border-block: 1px solid var(--border);
+      background: var(--surface);
+    }
+
+    .trust-items {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      padding-block: 24px;
+    }
+
+    .trust-item {
+      display: flex;
       align-items: center;
-      justify-content: center;
-      gap: 8px;
-      padding: 12px 20px;
-      border-radius: 9px;
-      text-decoration: none;
+      gap: 12px;
+      font-size: .86rem;
       font-weight: 700;
-      transition: transform .2s, background .2s;
     }
 
-    .button:hover { transform: translateY(-2px); }
-    .button-gold { background: var(--gold); color: #171717; }
-
-    .button-outline {
-      border: 1px solid #ffffff9c;
-      color: #fff;
-      background: #ffffff12;
+    .trust-icon {
+      width: 42px;
+      height: 42px;
+      flex-shrink: 0;
+      display: grid;
+      place-items: center;
+      border-radius: 13px;
+      background: var(--surface-2);
+      font-size: 1.1rem;
     }
 
-    section { padding: 78px 22px; }
+    .section { padding: 95px 0; }
 
-    .container {
-      max-width: 1100px;
-      margin: auto;
-    }
+    .section-soft { background: var(--surface); }
 
-    .section-heading {
-      text-align: center;
+    .section-head {
+      max-width: 730px;
       margin-bottom: 38px;
     }
 
-    .section-heading .eyebrow {
-      color: var(--blue);
-      margin-bottom: 8px;
-    }
-
-    .section-heading h2 {
-      font-family: 'Playfair Display', Georgia, serif;
-      font-size: clamp(2rem, 4vw, 3rem);
-      line-height: 1.2;
-    }
-
-    .section-heading p {
-      color: var(--muted);
-      max-width: 680px;
-      margin: 10px auto 0;
-    }
-
-    .about { background: #fff; }
-
-    .about-copy {
-      max-width: 790px;
-      margin: auto;
+    .section-head.center {
+      margin-inline: auto;
       text-align: center;
-      font-size: 1.08rem;
-      color: #475569;
     }
 
-    .cards {
+    .section-head.center .eyebrow { justify-content: center; }
+
+    .section-head h2 {
+      font-size: clamp(2.1rem, 4.5vw, 3.6rem);
+      font-weight: 800;
+    }
+
+    .section-head p {
+      margin-top: 15px;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .about-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
-      gap: 18px;
+      grid-template-columns: .85fr 1.15fr;
+      gap: 50px;
+      align-items: start;
     }
 
-    .card {
-      background: #fff;
-      padding: 25px;
-      border-radius: 15px;
-      box-shadow: 0 8px 28px #1725540d;
-      border: 1px solid #e8edf5;
+    .about-panel {
+      padding: 30px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
     }
 
-    .service-card { padding: 0; overflow: hidden; }
-
-    .service-card img {
-      width: 100%;
-      height: 145px;
-      object-fit: cover;
-      display: block;
+    .about-panel h3 {
+      font-size: 1.4rem;
+      margin-bottom: 13px;
     }
 
-    .service-copy { padding: 19px 21px 22px; }
+    .about-panel p {
+      color: var(--muted);
+      font-size: .96rem;
+    }
 
-    .card-icon {
-      width: 46px;
-      height: 46px;
-      border-radius: 12px;
-      background: #eff6ff;
-      display: grid;
-      place-items: center;
-      font-size: 1.35rem;
+    .about-copy p {
+      color: var(--muted);
       margin-bottom: 16px;
     }
 
-    .service-copy .card-icon {
-      margin-top: -42px;
-      position: relative;
-      border: 3px solid #fff;
-      width: 54px;
-      height: 54px;
-      font-size: 1.45rem;
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 22px;
     }
 
-    .card h3 { font-size: 1.1rem; margin-bottom: 8px; }
-    .service-copy h3 { margin-bottom: 6px; }
-
-    .card p {
-      color: var(--muted);
-      font-size: .95rem;
+    .pill {
+      padding: 8px 12px;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      font-size: .78rem;
+      font-weight: 700;
     }
 
-    .shop { background: #111827; color: #fff; }
-    .shop .section-heading p { color: #cbd5e1; }
-    .shop .section-heading .eyebrow { color: var(--gold); }
-
-    .products {
+    .services-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 22px;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
     }
 
-    .product {
-      background: #fff;
-      color: var(--ink);
+    .service-card {
+      padding: 25px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      transition: transform .25s, border-color .25s;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--accent);
+    }
+
+    .service-icon {
+      width: 52px;
+      height: 52px;
+      display: grid;
+      place-items: center;
       border-radius: 16px;
-      overflow: hidden;
-      box-shadow: 0 10px 30px #0003;
+      background: var(--surface-2);
+      font-size: 1.45rem;
+      margin-bottom: 20px;
     }
 
-    .product img {
+    .service-card h3 {
+      font-size: 1.13rem;
+      margin-bottom: 10px;
+    }
+
+    .service-card p {
+      color: var(--muted);
+      font-size: .91rem;
+    }
+
+    .service-link {
+      display: inline-block;
+      margin-top: 18px;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: .85rem;
+      font-weight: 800;
+    }
+
+    .shop-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 30px;
+      margin-bottom: 30px;
+    }
+
+    .shop-top .section-head { margin-bottom: 0; }
+
+    .shop-badge {
+      flex-shrink: 0;
+      padding: 10px 15px;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      font-size: .8rem;
+      font-weight: 800;
+    }
+
+    .shop-controls {
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) auto;
+      gap: 14px;
+      margin-bottom: 25px;
+    }
+
+    .search-wrap { position: relative; }
+
+    .search-icon {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+    }
+
+    .search-input {
+      width: 100%;
+      min-height: 50px;
+      padding: 12px 16px 12px 45px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+    }
+
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .filter-btn {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 14px;
+      background: var(--surface);
+      color: var(--muted);
+      font-size: .83rem;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .filter-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: var(--accent-text);
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      overflow: hidden;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      transition: transform .25s, border-color .25s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--accent);
+    }
+
+    .product-card[hidden] { display: none; }
+
+    .product-image-wrap {
+      position: relative;
+      overflow: hidden;
+      background: var(--surface-2);
+    }
+
+    .product-image {
+      display: block;
       width: 100%;
       height: 245px;
       object-fit: cover;
-      display: block;
-      background: #e5e7eb;
+      transition: transform .45s;
     }
 
-    .product-info { padding: 19px; }
-    .product-info h3 { font-size: 1.1rem; }
+    .product-card:hover .product-image { transform: scale(1.04); }
+
+    .product-tag {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      padding: 7px 11px;
+      border-radius: 100px;
+      background: var(--accent);
+      color: var(--accent-text);
+      font-size: .7rem;
+      font-weight: 800;
+    }
+
+    .product-info { padding: 21px; }
+
+    .product-category {
+      color: var(--accent);
+      font-size: .72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+    }
+
+    .product-info h3 {
+      margin-top: 8px;
+      font-size: 1.2rem;
+    }
 
     .product-info p {
-      font-size: .92rem;
+      margin-top: 9px;
+      min-height: 52px;
       color: var(--muted);
-      margin: 5px 0 15px;
+      font-size: .88rem;
     }
 
-    .product-info .button {
+    .product-info .btn {
       width: 100%;
-      background: #16a34a;
-      color: white;
-      padding: 10px;
+      margin-top: 18px;
+    }
+
+    .empty-state {
+      display: none;
+      text-align: center;
+      padding: 45px 20px;
+      border: 1px dashed var(--border);
+      border-radius: 20px;
+      color: var(--muted);
+    }
+
+    .empty-state.show { display: block; }
+
+    .shop-footnote {
+      color: var(--muted);
+      font-size: .8rem;
+      margin-top: 20px;
+    }
+
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .process-card {
+      padding: 25px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+    }
+
+    .process-number {
+      display: grid;
+      place-items: center;
+      width: 44px;
+      height: 44px;
+      border-radius: 14px;
+      background: var(--accent);
+      color: var(--accent-text);
+      font-weight: 800;
+      margin-bottom: 20px;
+    }
+
+    .process-card h3 { font-size: 1.12rem; }
+
+    .process-card p {
+      color: var(--muted);
+      font-size: .9rem;
+      margin-top: 10px;
     }
 
     .social-grid {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 13px;
-      margin-top: 28px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
     }
 
-    .social {
-      min-width: 145px;
+    .social-card {
       display: flex;
       align-items: center;
-      justify-content: center;
-      gap: 9px;
-      padding: 13px 18px;
-      border-radius: 11px;
-      color: white;
-      text-decoration: none;
-      font-weight: 700;
-      transition: transform .2s, opacity .2s;
-    }
-
-    .social:hover { transform: translateY(-3px); opacity: .9; }
-    .facebook { background: #1877f2; }
-    .instagram { background: linear-gradient(120deg, #833ab4, #fd1d1d, #fcb045); }
-    .whatsapp { background: #16a34a; }
-    .tiktok { background: #111; border: 1px solid #374151; }
-
-    .contact { background: #eef3fa; }
-
-    .contact-card {
-      max-width: 760px;
-      margin: auto;
-      background: #fff;
-      padding: 34px;
+      gap: 13px;
+      padding: 18px;
+      background: var(--surface);
+      border: 1px solid var(--border);
       border-radius: 18px;
-      box-shadow: 0 10px 35px #17255412;
-      text-align: center;
-    }
-
-    .contact-card p { margin: 7px 0; color: #475569; }
-
-    .contact-card a:not(.button) {
-      color: var(--blue);
       text-decoration: none;
+      transition: transform .2s, border-color .2s;
     }
 
-    .contact-card .button {
-      margin-top: 18px;
-      background: var(--blue);
-      color: #fff;
+    .social-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent);
     }
 
-    footer {
-      background: #0b1220;
-      color: #cbd5e1;
-      text-align: center;
-      padding: 26px 20px;
-      font-size: .9rem;
+    .social-icon {
+      display: grid;
+      place-items: center;
+      width: 45px;
+      height: 45px;
+      flex-shrink: 0;
+      background: var(--surface-2);
+      border-radius: 14px;
+      font-size: 1.15rem;
     }
 
-    footer strong { color: #fff; }
+    .social-card strong {
+      display: block;
+      font-size: .88rem;
+    }
+
+    .social-card small {
+      display: block;
+      color: var(--muted);
+      font-size: .75rem;
+      overflow-wrap: anywhere;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: .85fr 1.15fr;
+      gap: 25px;
+    }
+
+    .contact-panel {
+      padding: 30px;
+      border: 1px solid var(--border);
+      border-radius: 23px;
+      background: var(--surface);
+    }
+
+    .contact-panel h3 {
+      font-size: 1.5rem;
+      margin-bottom: 12px;
+    }
+
+    .contact-panel > p {
+      color: var(--muted);
+      font-size: .92rem;
+      margin-bottom: 20px;
+    }
+
+    .contact-detail {
+      padding: 15px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .contact-detail:last-of-type { border-bottom: 0; }
+
+    .contact-detail small {
+      display: block;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    .contact-detail a {
+      font-weight: 700;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+
+    .contact-form {
+      display: grid;
+      gap: 15px;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 13px;
+    }
+
+    .field label {
+      display: block;
+      margin-bottom: 7px;
+      font-size: .82rem;
+      font-weight: 800;
+    }
+
+    .field input, .field select, .field textarea {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 13px 14px;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .field textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    .form-note {
+      color: var(--muted);
+      font-size: .78rem;
+    }
+
+    .footer {
+      padding: 35px 0;
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .footer p {
+      color: var(--muted);
+      font-size: .82rem;
+    }
+
+    .footer strong { color: var(--text); }
+
+    .back-top {
+      position: fixed;
+      bottom: 22px;
+      right: 22px;
+      z-index: 80;
+      width: 46px;
+      height: 46px;
+      border: 1px solid var(--border);
+      border-radius: 15px;
+      background: var(--accent);
+      color: var(--accent-text);
+      font-size: 1.25rem;
+      cursor: pointer;
+      box-shadow: var(--shadow);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(10px);
+      transition: opacity .2s, transform .2s;
+    }
+
+    .back-top.visible {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity .6s ease, transform .6s ease;
+    }
+
+    .reveal.in-view {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        transition-duration: .01ms !important;
+      }
+
+      .reveal { opacity: 1; transform: none; }
+    }
+
+    @media (max-width: 960px) {
+      .nav-links { gap: 15px; }
+      .hero-grid { gap: 30px; }
+      .hero h1 { font-size: clamp(2.8rem, 6vw, 4.6rem); }
+      .hero-photo { height: 380px; }
+      .hero-visual { min-height: 410px; }
+      .services-grid { grid-template-columns: repeat(2, 1fr); }
+      .product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .social-grid { grid-template-columns: repeat(2, 1fr); }
+    }
 
     @media (max-width: 740px) {
-      .nav-wrap { min-height: 68px; }
-      .menu-toggle { display: block; }
+      .container { width: min(100% - 30px, 560px); }
+
+      .nav { min-height: 70px; }
+      .menu-toggle { display: grid; }
 
       .nav-links {
         display: none;
         position: absolute;
-        top: 68px;
+        top: 70px;
         left: 0;
         right: 0;
-        background: #111827;
-        padding: 12px 24px 22px;
+        padding: 18px 20px 24px;
+        background: var(--surface);
+        border-bottom: 1px solid var(--border);
         flex-direction: column;
         align-items: stretch;
-        gap: 4px;
-        border-top: 1px solid #ffffff18;
+        gap: 5px;
       }
 
       .nav-links.open { display: flex; }
-      .nav-links a { display: block; padding: 10px 4px; }
+      .nav-links a { display: block; padding: 11px 8px; }
+      .nav-actions .nav-contact { display: none; }
 
-      .nav-links .nav-cta {
-        text-align: center;
-        margin-top: 8px;
-      }
+      .hero { padding: 70px 0 65px; }
+      .hero-grid { grid-template-columns: 1fr; gap: 35px; }
+      .hero h1 { font-size: clamp(2.8rem, 12vw, 4.4rem); }
+      .hero-description { font-size: .98rem; }
+      .hero-visual { min-height: 330px; }
+      .hero-photo { height: 330px; }
+      .floating-card { left: 10px; bottom: 10px; }
 
-      .hero { min-height: 520px; }
-      .hero h1 { font-size: clamp(2.5rem, 11vw, 4rem); }
-      section { padding: 62px 18px; }
-      .product img { height: 220px; }
-      .contact-card { padding: 26px 18px; }
-    }
+      .trust-items { grid-template-columns: repeat(2, 1fr); gap: 18px; }
+      .section { padding: 70px 0; }
+      .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 20px; }
+      .services-grid { grid-template-columns: 1fr; }
+      .shop-top { align-items: start; flex-direction: column; gap: 12px; }
 
-    @media (prefers-reduced-motion: reduce) {
-      html { scroll-behavior: auto; }
-      *, *::before, *::after { transition: none !important; }
+      .shop-controls { grid-template-columns: 1fr; }
+      .filters { display: grid; grid-template-columns: repeat(2, 1fr); }
+      .filter-btn { padding: 12px 8px; }
+      .product-grid { grid-template-columns: 1fr; }
+      .product-image { height: 270px; }
+      .process-grid { grid-template-columns: 1fr; }
+      .social-grid { grid-template-columns: 1fr; }
+      .form-row { grid-template-columns: 1fr; }
+      .contact-panel { padding: 23px; }
     }
   </style>
 </head>
 
 <body>
-  <nav class="topbar" aria-label="Main navigation">
-    <div class="nav-wrap">
-      <a class="brand" href="#home">KEITH <span>GICHANA</span></a>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-      <button class="menu-toggle" type="button"
-        aria-label="Open navigation menu"
-        aria-expanded="false"
-        aria-controls="nav-links">☰</button>
+  <div class="announcement">
+    MOBYSIR × URBANWALKS &nbsp;·&nbsp; DIGITAL CREATIVITY MEETS EVERYDAY STYLE
+  </div>
 
-      <ul class="nav-links" id="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Digital Services</a></li>
-        <li><a href="#business">Urban Walks</a></li>
-        <li><a href="#social">Social Media</a></li>
-        <li><a class="nav-cta" href="#contact">Contact</a></li>
-      </ul>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#home" aria-label="MOBYSIR home">
+        <span class="logo-mark">MS</span>
+        <span>MOBY<span>SIR</span></span>
+      </a>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#shop">Fashion Store</a></li>
+          <li><a href="#social">Socials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-button" id="themeToggle" type="button"
+          aria-label="Switch to light mode" title="Toggle appearance">☼</button>
+
+        <a class="btn btn-primary nav-contact" href="#contact">Let's Talk ↗</a>
+
+        <button class="icon-button menu-toggle" id="menuToggle" type="button"
+          aria-label="Open navigation menu" aria-expanded="false"
+          aria-controls="navLinks">☰</button>
+      </div>
     </div>
-  </nav>
+  </header>
 
-  <main>
-    <header class="hero" id="home">
-      <div class="hero-inner">
-        <span class="eyebrow">Technology · Style · Service</span>
-        <h1>Keith Gichana | Website &amp; Graphic Designer</h1>
-        <p>
-          Welcome to the official website of Keith Gichana. Explore website
-          design for businesses and individuals, graphic design, ICT support
-          and digital services through Urbanwalks in Kenya.
-        </p>
-        <div class="actions">
-          <a class="button button-gold" href="#business">Explore Urban Walks <span aria-hidden="true">→</span></a>
-          <a class="button button-outline" href="#contact">Get in touch</a>
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="reveal">
+          <span class="eyebrow">Welcome to my digital space</span>
+
+          <h1>
+            I'm Keith Gichana.<br>
+            Call me <span class="highlight">MOBYSIR.</span>
+          </h1>
+
+          <p class="hero-description">
+            I create digital experiences through website design, graphic design
+            and ICT support. I also bring everyday fashion to life through
+            Urbanwalks — shoes, football jerseys and T-shirts.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#services">Explore My Services ↗</a>
+            <a class="btn btn-secondary" href="#shop">Shop Urbanwalks ↓</a>
+          </div>
+
+          <p class="hero-note">
+            <span class="status-dot"></span>
+            <strong>Digital creativity.</strong> Personal style. Practical solutions.
+          </p>
+        </div>
+
+        <div class="hero-visual reveal">
+          <img class="hero-photo"
+            src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85"
+            alt="Modern creative workspace"
+            fetchpriority="high">
+
+          <div class="floating-card">
+            <span class="eyebrow">The brand</span>
+            <strong>Technology meets style.</strong>
+            <p>Building skills, creating digital work and growing Urbanwalks.</p>
+          </div>
         </div>
       </div>
-    </header>
+    </section>
 
-    <section class="about" id="about">
-      <div class="container">
-        <div class="section-heading">
+    <div class="trust-strip">
+      <div class="container trust-items">
+        <div class="trust-item">
+          <span class="trust-icon">💻</span>
+          <span>Website Design</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">🎨</span>
+          <span>Graphic Design</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">🛠️</span>
+          <span>ICT Support</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">👟</span>
+          <span>Urbanwalks Fashion</span>
+        </div>
+      </div>
+    </div>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="section-head reveal">
           <span class="eyebrow">A little about me</span>
-          <h2>About Keith Gichana</h2>
+          <h2>One name.<br>Different possibilities.</h2>
+          <p>
+            My goal is to use technology and creativity to help people
+            and businesses move forward.
+          </p>
         </div>
-        <p class="about-copy">
-          My name is Keith Gichana Mobisa. I am an ICT professional with skills in
-          computer troubleshooting, networking, software installation,
-          hardware support and digital services. Through Urbanwalks, I also
-          offer website design for businesses and individuals, graphic design
-          and digital creative services in Kenya. I enjoy learning new
-          technology and building practical solutions for people and businesses.
+
+        <div class="about-copy reveal">
+          <p>
+            My name is <strong>Keith Gichana Mobisa</strong>, also known as
+            <strong>MOBYSIR</strong>. I am an ICT professional developing
+            practical skills in computer support, networking and digital
+            technologies.
+          </p>
+
+          <p>
+            I design websites for businesses and individuals, create graphics
+            for brands and help with everyday ICT tasks. Alongside digital
+            services, Urbanwalks is my fashion brand for shoes, football jerseys
+            and T-shirts.
+          </p>
+
+          <p>
+            I believe in continuous learning, honest service and creating
+            useful work that helps people present their ideas professionally.
+          </p>
+
+          <div class="pill-row">
+            <span class="pill">Website Design</span>
+            <span class="pill">Graphic Design</span>
+            <span class="pill">ICT Support</span>
+            <span class="pill">Digital Learning</span>
+            <span class="pill">Urbanwalks</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="services">
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow">What I can help with</span>
+          <h2>Digital Services</h2>
+          <p>
+            Practical creative and technology services for individuals,
+            entrepreneurs and businesses. Ask about your project and we can
+            discuss the requirements.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-icon">🌐</div>
+            <h3>Website Design</h3>
+            <p>Responsive websites for businesses, personal brands, portfolios and service providers.</p>
+            <a class="service-link" href="#contact" data-service="Website Design">Discuss a website ↗</a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">🎨</div>
+            <h3>Graphic Design</h3>
+            <p>Promotional posters, flyers, invitations, social media graphics and visual branding.</p>
+            <a class="service-link" href="#contact" data-service="Graphic Design">Discuss a design ↗</a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">🖥️</div>
+            <h3>Computer Support</h3>
+            <p>Basic computer troubleshooting, software installation, system setup and maintenance.</p>
+            <a class="service-link" href="#contact" data-service="Computer Support">Ask about support ↗</a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">📡</div>
+            <h3>Networking</h3>
+            <p>Basic Wi-Fi setup, connectivity troubleshooting, router configuration and printer sharing.</p>
+            <a class="service-link" href="#contact" data-service="Networking">Discuss your issue ↗</a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">📄</div>
+            <h3>Documents &amp; Online Tasks</h3>
+            <p>Typing, document formatting, PDF help and guidance with online forms and applications.</p>
+            <a class="service-link" href="#contact" data-service="Documents and Online Tasks">Make an enquiry ↗</a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">📱</div>
+            <h3>Digital Assistance</h3>
+            <p>Basic smartphone setup, app installation, file transfer and safe technology-use guidance.</p>
+            <a class="service-link" href="#contact" data-service="Digital Assistance">Ask a question ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="shop">
+      <div class="container">
+        <div class="shop-top">
+          <div class="section-head reveal">
+            <span class="eyebrow">Step loud, walk urban</span>
+            <h2>Urbanwalks Fashion Store</h2>
+            <p>
+              Your style, your choice. Explore shoes, football jerseys
+              and T-shirts, then message us to check designs, sizes and prices.
+            </p>
+          </div>
+
+          <div class="shop-badge">URBANWALKS · FASHION</div>
+        </div>
+
+        <div class="shop-controls reveal">
+          <div class="search-wrap">
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <input
+              class="search-input"
+              id="productSearch"
+              type="search"
+              placeholder="Search shoes, jerseys, T-shirts..."
+              aria-label="Search fashion categories">
+          </div>
+
+          <div class="filters" role="group" aria-label="Filter fashion categories">
+            <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">All Items</button>
+            <button class="filter-btn" type="button" data-filter="shoes" aria-pressed="false">👟 Shoes</button>
+            <button class="filter-btn" type="button" data-filter="jerseys" aria-pressed="false">⚽ Jerseys</button>
+            <button class="filter-btn" type="button" data-filter="tshirts" aria-pressed="false">👕 T-Shirts</button>
+          </div>
+        </div>
+
+        <div class="product-grid" id="productGrid">
+          <article class="product-card reveal" data-category="shoes" data-search="shoes sneakers casual trainers everyday footwear">
+            <div class="product-image-wrap">
+              <img class="product-image"
+                src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80"
+                alt="Sporty sneaker style" loading="lazy">
+              <span class="product-tag">SHOES</span>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Urbanwalks footwear</span>
+              <h3>Sneakers &amp; Casual Shoes</h3>
+              <p>Explore everyday sneakers and casual footwear in different styles and sizes.</p>
+              <a class="btn btn-whatsapp"
+                href="https://wa.me/254115257258?text=Hi%20Urbanwalks%2C%20please%20show%20me%20available%20sneakers%20and%20shoe%20prices."
+                target="_blank" rel="noopener noreferrer">Enquire on WhatsApp ↗</a>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="shoes" data-search="jordans adidas samba converse loafers open shoes streetwear">
+            <div class="product-image-wrap">
+              <img class="product-image"
+                src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80&sat=-35"
+                alt="Streetwear shoe inspiration" loading="lazy">
+              <span class="product-tag">SHOES</span>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Urbanwalks footwear</span>
+              <h3>Streetwear &amp; Classic Styles</h3>
+              <p>Ask about available sporty, classic, loafers and open-shoe styles.</p>
+              <a class="btn btn-whatsapp"
+                href="https://wa.me/254115257258?text=Hi%20Urbanwalks%2C%20what%20streetwear%20and%20classic%20shoe%20styles%20are%20available%3F"
+                target="_blank" rel="noopener noreferrer">Explore Shoe Styles ↗</a>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="jerseys" data-search="football soccer jerseys sports team kit fan">
+            <div class="product-image-wrap">
+              <img class="product-image"
+                src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=900&q=80"
+                alt="Football pitch and sports inspiration" loading="lazy">
+              <span class="product-tag">JERSEYS</span>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Football &amp; sportswear</span>
+              <h3>Football Jerseys</h3>
+              <p>Ask about jerseys for your favourite teams, available designs and sizes.</p>
+              <a class="btn btn-whatsapp"
+                href="https://wa.me/254115257258?text=Hi%20Urbanwalks%2C%20please%20show%20me%20available%20football%20jerseys%2C%20sizes%20and%20prices."
+                target="_blank" rel="noopener noreferrer">Enquire About Jerseys ↗</a>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="jerseys" data-search="sports jerseys football fan kits training shirts">
+            <div class="product-image-wrap">
+              <img class="product-image"
+                src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=900&q=80"
+                alt="Football players on a pitch" loading="lazy">
+              <span class="product-tag">JERSEYS</span>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Football &amp; sportswear</span>
+              <h3>Sports &amp; Fan Wear</h3>
+              <p>Contact us to check available sportswear designs and current stock.</p>
+              <a class="btn btn-whatsapp"
+                href="https://wa.me/254115257258?text=Hi%20Urbanwalks%2C%20I%27d%20like%20to%20ask%20about%20sportswear%20and%20fan%20jerseys."
+                target="_blank" rel="noopener noreferrer">Ask About Stock ↗</a>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="tshirts" data-search="t shirts tshirts tees casual cotton plain streetwear">
+            <div class="product-image-wrap">
+              <img class="product-image"
+                src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80"
+                alt="Casual T-shirt collection" loading="lazy">
+              <span class="product-tag">T-SHIRTS</span>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Everyday fashion</span>
+              <h3>Casual T-Shirts</h3>
+              <p>Explore everyday tees and ask about available colours, designs and sizes.</p>
+              <a class="btn btn-whatsapp"
+                href="https://wa.me/254115257258?text=Hi%20Urbanwalks%2C%20please%20show%20me%20available%20T-shirts%2C%20colours%20and%20prices."
+                target="_blank" rel="noopener noreferrer">Enquire About T-Shirts ↗</a>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="tshirts" data-search="fashion tshirts graphic tees urban street style tops">
+            <div class="product-image-wrap">
+              <img class="product-image"
+                src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=900&q=80"
+                alt="Casual streetwear outfit" loading="lazy">
+              <span class="product-tag">T-SHIRTS</span>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Everyday fashion</span>
+              <h3>Streetwear T-Shirts</h3>
+              <p>Find your everyday look. Ask us about current T-shirt styles and availability.</p>
+              <a class="btn btn-whatsapp"
+                href="https://wa.me/254115257258?text=Hi%20Urbanwalks%2C%20I%27m%20looking%20for%20streetwear%20T-shirts.%20What%20is%20available%3F"
+                target="_blank" rel="noopener noreferrer">Explore T-Shirts ↗</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="empty-state" id="emptyState" role="status">
+          <h3>No matching items found</h3>
+          <p>Try another search or choose a different category.</p>
+        </div>
+
+        <p class="shop-footnote">
+          Product images are illustrative. Designs, sizes, stock and prices must
+          be confirmed directly with Urbanwalks before ordering.
         </p>
       </div>
     </section>
 
-    <section id="skills">
+    <section class="section section-soft">
       <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow">What I do</span>
-          <h2>Digital &amp; ICT Services</h2>
-          <p>
-            Support with everyday technology, online tasks, business tools
-            and creative digital work. Contact me to confirm availability and pricing.
-          </p>
+        <div class="section-head center reveal">
+          <span class="eyebrow">Simple and straightforward</span>
+          <h2>How It Works</h2>
+          <p>Getting started with a service or fashion enquiry is easy.</p>
         </div>
 
-        <div class="cards">
-          <article class="card service-card">
-            <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80" alt="Computer workstation for repair and support" loading="lazy">
-            <div class="service-copy">
-              <div class="card-icon">🖥️</div>
-              <h3>Computer &amp; Laptop Support</h3>
-              <p>Diagnosis, troubleshooting, software installation, updates, basic maintenance and setup.</p>
-            </div>
+        <div class="process-grid">
+          <article class="process-card reveal">
+            <div class="process-number">01</div>
+            <h3>Explore</h3>
+            <p>Browse the digital services or filter Urbanwalks products to find what interests you.</p>
           </article>
 
-          <article class="card service-card">
-            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80" alt="Network server equipment" loading="lazy">
-            <div class="service-copy">
-              <div class="card-icon">🌐</div>
-              <h3>Networking &amp; Internet</h3>
-              <p>Wi-Fi and router setup, connectivity troubleshooting, printer sharing and basic network configuration.</p>
-            </div>
+          <article class="process-card reveal">
+            <div class="process-number">02</div>
+            <h3>Send an Enquiry</h3>
+            <p>Use WhatsApp or the contact form to explain what you need or ask about available products.</p>
           </article>
 
-          <article class="card service-card">
-            <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=800&q=80" alt="Writing and document preparation" loading="lazy">
-            <div class="service-copy">
-              <div class="card-icon">📝</div>
-              <h3>Typing &amp; Document Preparation</h3>
-              <p>Typing, formatting, CVs, letters, reports, proposals and professional document layout.</p>
-            </div>
-          </article>
-
-          <article class="card service-card">
-            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="Online services on a laptop" loading="lazy">
-            <div class="service-copy">
-              <div class="card-icon">🧾</div>
-              <h3>Online Applications</h3>
-              <p>Guidance with online forms, account registration, application submissions and document uploads.</p>
-            </div>
-          </article>
-
-          <article class="card service-card">
-            <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80" alt="Organized business records and finance" loading="lazy">
-            <div class="service-copy">
-              <div class="card-icon">📊</div>
-              <h3>Office &amp; Spreadsheet Work</h3>
-              <p>Microsoft Word, Excel and PowerPoint assistance, data entry, tables, reports and presentations.</p>
-            </div>
-          </article>
-
-          <article class="card service-card">
-            <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=800&q=80" alt="Graphic design work" loading="lazy">
-            <div class="service-copy">
-              <div class="card-icon">🎨</div>
-              <h3>Graphic Design</h3>
-              <p>Posters, flyers, invitations, simple logos and branded social media graphics.</p>
-            </div>
-          </article>
-
-          <article class="card service-card">
-            <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80" alt="Social media content on a phone" loading="lazy">
-            <div class="service-copy">
-              <div class="card-icon">📱</div>
-              <h3>Social Media Content</h3>
-              <p>Designing promotional artwork, digital posts and simple content calendars.</p>
-            </div>
-          </article>
-
-          <article class="card service-card">
-            <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=800&q=80" alt="Website design on a computer screen" loading="lazy">
-            <div class="service-copy">
-              <div class="card-icon">💻</div>
-              <h3>Website Design</h3>
-              <p>Website design for businesses and individuals, website updates and guidance on getting your business online.</p>
-            </div>
-          </article>
-
-          <article class="card service-card">
-            <img src="https://images.unsplash.com/photo-1587440871875-191322ee64b0?auto=format&fit=crop&w=800&q=80" alt="Digital files and computer work" loading="lazy">
-            <div class="service-copy">
-              <div class="card-icon">📂</div>
-              <h3>Scanning, Printing &amp; File Help</h3>
-              <p>Document scanning, PDF conversion, printing preparation, file organization and backup guidance.</p>
-            </div>
-          </article>
-
-          <article class="card service-card">
-            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80" alt="Computer systems and digital security" loading="lazy">
-            <div class="service-copy">
-              <div class="card-icon">🔐</div>
-              <h3>Digital Safety &amp; Account Help</h3>
-              <p>Basic device security, password and account recovery guidance, and safe-use support.</p>
-            </div>
-          </article>
-
-          <article class="card service-card">
-            <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=800&q=80" alt="People learning and working together" loading="lazy">
-            <div class="service-copy">
-              <div class="card-icon">🧑‍🏫</div>
-              <h3>Basic Digital Skills</h3>
-              <p>One-to-one guidance on computers, email, the internet and common office applications.</p>
-            </div>
-          </article>
-
-          <article class="card service-card">
-            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="Mobile phone used for digital services" loading="lazy">
-            <div class="service-copy">
-              <div class="card-icon">📲</div>
-              <h3>Phone &amp; App Assistance</h3>
-              <p>Help with smartphone setup, app installation, updates, data transfer and basic troubleshooting.</p>
-            </div>
+          <article class="process-card reveal">
+            <div class="process-number">03</div>
+            <h3>Confirm the Details</h3>
+            <p>Discuss requirements, price, sizes, availability and the next steps before proceeding.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="shop" id="business">
+    <section class="section" id="social">
       <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow">Step loud, walk urban</span>
-          <h2>Urban Walks Fashions</h2>
-          <p>
-            Stylish, affordable shoes. Browse a few popular styles and message
-            us to check current stock, sizes and prices.
-          </p>
-        </div>
-
-        <div class="products">
-          <article class="product">
-            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80" alt="Red and white sporty sneaker" loading="lazy">
-            <div class="product-info">
-              <h3>Everyday Sneakers</h3>
-              <p>Casual comfort for your daily walk.</p>
-              <a class="button" href="https://wa.me/254115257258?text=Hi%20Urban%20Walks%2C%20I%27m%20interested%20in%20your%20Everyday%20Sneakers" target="_blank" rel="noopener noreferrer">Ask about this style</a>
-            </div>
-          </article>
-
-          <article class="product">
-            <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=80" alt="Women's fashion shoes" loading="lazy">
-            <div class="product-info">
-              <h3>Ladies' Fashion Shoes</h3>
-              <p>A polished look for outings and special days.</p>
-              <a class="button" href="https://wa.me/254115257258?text=Hi%20Urban%20Walks%2C%20I%27m%20interested%20in%20your%20Ladies%27%20Fashion%20Shoes" target="_blank" rel="noopener noreferrer">Ask about this style</a>
-            </div>
-          </article>
-
-          <article class="product">
-            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80&sat=-40" alt="Sport style shoes" loading="lazy">
-            <div class="product-info">
-              <h3>Sport &amp; Street Style</h3>
-              <p>Easy-to-wear style for an active day.</p>
-              <a class="button" href="https://wa.me/254115257258?text=Hi%20Urban%20Walks%2C%20I%27m%20interested%20in%20your%20Sport%20%26%20Street%20Style%20shoes" target="_blank" rel="noopener noreferrer">Ask about this style</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="social">
-      <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow">Keep in touch</span>
-          <h2>Follow Keith Gichana</h2>
-          <p>Follow for updates, new shoe arrivals and digital service news.</p>
+        <div class="section-head center reveal">
+          <span class="eyebrow">Stay connected</span>
+          <h2>Find MOBYSIR Online</h2>
+          <p>Follow my public platforms for creative work, updates and Urbanwalks content.</p>
         </div>
 
         <div class="social-grid">
-          <a class="social facebook" href="https://www.facebook.com/IbachoTrends" target="_blank" rel="noopener noreferrer" aria-label="Facebook: Ibacho Trends">📘 Facebook</a>
-          <a class="social instagram" href="https://www.instagram.com/keith_urbanwalks/" target="_blank" rel="noopener noreferrer" aria-label="Instagram: Keith Urbanwalks">📸 Instagram</a>
-          <a class="social whatsapp" href="https://wa.me/254115257258" target="_blank" rel="noopener noreferrer" aria-label="Contact Keith on WhatsApp">💬 WhatsApp</a>
-          <a class="social tiktok" href="https://www.tiktok.com/@brandplugkenya" target="_blank" rel="noopener noreferrer" aria-label="TikTok: Brandplug Kenya">♪ TikTok</a>
+          <a class="social-card reveal" href="https://github.com/mobysir" target="_blank" rel="noopener noreferrer">
+            <span class="social-icon">💻</span>
+            <span><strong>GitHub</strong><small>Projects &amp; code</small></span>
+          </a>
+
+          <a class="social-card reveal" href="https://www.instagram.com/keith_urbanwalks/" target="_blank" rel="noopener noreferrer">
+            <span class="social-icon">📸</span>
+            <span><strong>Instagram</strong><small>@keith_urbanwalks</small></span>
+          </a>
+
+          <a class="social-card reveal" href="https://www.tiktok.com/@brandplugkenya" target="_blank" rel="noopener noreferrer">
+            <span class="social-icon">♪</span>
+            <span><strong>TikTok</strong><small>@brandplugkenya</small></span>
+          </a>
+
+          <a class="social-card reveal" href="https://www.facebook.com/IbachoTrends" target="_blank" rel="noopener noreferrer">
+            <span class="social-icon">📘</span>
+            <span><strong>Facebook</strong><small>Ibacho Trends</small></span>
+          </a>
         </div>
       </div>
     </section>
 
-    <section class="contact" id="contact">
+    <section class="section section-soft" id="contact">
       <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow">Let's talk</span>
-          <h2>Contact Keith Gichana</h2>
+        <div class="section-head reveal">
+          <span class="eyebrow">Let's make it happen</span>
+          <h2>Have a project or enquiry?</h2>
+          <p>Tell me what you need. The form opens a WhatsApp message with your details for you to review and send.</p>
         </div>
 
-        <div class="contact-card">
-          <p><strong>Phone:</strong> <a href="tel:+254115257258">0115 257 258</a></p>
-          <p><strong>Email:</strong> <a href="mailto:gichanakeith300@gmail.com">gichanakeith300@gmail.com</a></p>
-          <p><strong>Location:</strong> Kenya</p>
-          <a class="button" href="mailto:gichanakeith300@gmail.com">Send me an email</a>
+        <div class="contact-grid">
+          <div class="contact-panel reveal">
+            <h3>Let's connect.</h3>
+            <p>For website design, graphic design, ICT support or Urbanwalks fashion enquiries, use the contact details below.</p>
+
+            <div class="contact-detail">
+              <small>WhatsApp / Phone</small>
+              <a href="https://wa.me/254115257258" target="_blank" rel="noopener noreferrer">+254 115 257 258</a>
+            </div>
+
+            <div class="contact-detail">
+              <small>Email</small>
+              <a href="mailto:gichanakeith300@gmail.com">gichanakeith300@gmail.com</a>
+            </div>
+
+            <div class="contact-detail">
+              <small>Based in</small>
+              <strong>Kenya</strong>
+            </div>
+
+            <a class="btn btn-whatsapp" style="margin-top:22px;width:100%"
+              href="https://wa.me/254115257258?text=Hi%20Keith%2C%20I%20found%20your%20MOBYSIR%20website%20and%20would%20like%20to%20make%20an%20enquiry."
+              target="_blank" rel="noopener noreferrer">Chat on WhatsApp ↗</a>
+          </div>
+
+          <div class="contact-panel reveal">
+            <h3>Send an enquiry</h3>
+
+            <form class="contact-form" id="contactForm">
+              <div class="form-row">
+                <div class="field">
+                  <label for="visitorName">Your name</label>
+                  <input id="visitorName" name="name" type="text"
+                    placeholder="Enter your name" maxlength="80" required>
+                </div>
+
+                <div class="field">
+                  <label for="visitorContact">Your email or phone (optional)</label>
+                  <input id="visitorContact" name="contact" type="text"
+                    placeholder="How can I reach you?" maxlength="100">
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="enquiryType">What are you interested in?</label>
+                <select id="enquiryType" name="service" required>
+                  <option value="">Choose a service</option>
+                  <option>Website Design</option>
+                  <option>Graphic Design</option>
+                  <option>Computer Support</option>
+                  <option>Networking</option>
+                  <option>Documents and Online Tasks</option>
+                  <option>Digital Assistance</option>
+                  <option>Shoes</option>
+                  <option>Football Jerseys</option>
+                  <option>T-Shirts</option>
+                  <option>Other Enquiry</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="visitorMessage">Your message</label>
+                <textarea id="visitorMessage" name="message"
+                  placeholder="Tell me briefly what you need..." maxlength="1500" required></textarea>
+              </div>
+
+              <button class="btn btn-primary" type="submit">Prepare WhatsApp Message ↗</button>
+
+              <p class="form-note">
+                This form does not store or send your details to a server.
+                It prepares a WhatsApp message which you can review and send yourself.
+              </p>
+            </form>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <p>© 2026 <strong>Keith Gichana</strong>. All rights reserved.</p>
-    <p>Urbanwalks · Urban Walks Fashions · Step loud, walk urban.</p>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> <strong>Keith Gichana | MOBYSIR</strong></p>
+      <p>Urbanwalks · Step loud, walk urban.</p>
+      <a class="service-link" href="#home">Back to top ↑</a>
+    </div>
   </footer>
 
-  <script>
-    const menuButton = document.querySelector('.menu-toggle');
-    const menu = document.querySelector('#nav-links');
+  <button class="back-top" id="backTop" type="button" aria-label="Back to top">↑</button>
 
-    menuButton.addEventListener('click', () => {
-      const isOpen = menu.classList.toggle('open');
-      menuButton.setAttribute('aria-expanded', String(isOpen));
-      menuButton.setAttribute(
-        'aria-label',
-        isOpen ? 'Close navigation menu' : 'Open navigation menu'
+  <script>
+    // Mobile navigation
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", () => {
+      const isOpen = navLinks.classList.toggle("open");
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.setAttribute(
+        "aria-label",
+        isOpen ? "Close navigation menu" : "Open navigation menu"
       );
-      menuButton.textContent = isOpen ? '×' : '☰';
+      menuToggle.textContent = isOpen ? "×" : "☰";
     });
 
-    menu.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        menu.classList.remove('open');
-        menuButton.setAttribute('aria-expanded', 'false');
-        menuButton.setAttribute('aria-label', 'Open navigation menu');
-        menuButton.textContent = '☰';
+    navLinks.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => {
+        navLinks.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute("aria-label", "Open navigation menu");
+        menuToggle.textContent = "☰";
       });
     });
+
+    // Dark / light appearance toggle
+    const themeToggle = document.getElementById("themeToggle");
+    const savedTheme = localStorage.getItem("mobysir-theme");
+
+    if (savedTheme === "light") {
+      document.body.classList.add("light");
+    }
+
+    function updateThemeButton() {
+      const isLight = document.body.classList.contains("light");
+      themeToggle.textContent = isLight ? "☾" : "☼";
+      themeToggle.setAttribute(
+        "aria-label",
+        isLight ? "Switch to dark mode" : "Switch to light mode"
+      );
+      themeToggle.title = isLight ? "Switch to dark mode" : "Switch to light mode";
+    }
+
+    updateThemeButton();
+
+    themeToggle.addEventListener("click", () => {
+      document.body.classList.toggle("light");
+      const theme = document.body.classList.contains("light") ? "light" : "dark";
+      localStorage.setItem("mobysir-theme", theme);
+      updateThemeButton();
+    });
+
+    // Product category filters and search
+    const filterButtons = document.querySelectorAll(".filter-btn");
+    const productCards = document.querySelectorAll(".product-card");
+    const productSearch = document.getElementById("productSearch");
+    const emptyState = document.getElementById("emptyState");
+
+    let activeCategory = "all";
+
+    function filterProducts() {
+      const query = productSearch.value.trim().toLowerCase();
+      let visibleCount = 0;
+
+      productCards.forEach(card => {
+        const category = card.dataset.category;
+        const searchableText = (
+          card.dataset.search + " " + card.textContent
+        ).toLowerCase();
+
+        const matchesCategory =
+          activeCategory === "all" || category === activeCategory;
+        const matchesSearch = searchableText.includes(query);
+        const visible = matchesCategory && matchesSearch;
+
+        card.hidden = !visible;
+
+        if (visible) visibleCount++;
+      });
+
+      emptyState.classList.toggle("show", visibleCount === 0);
+    }
+
+    filterButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        activeCategory = button.dataset.filter;
+
+        filterButtons.forEach(item => {
+          const selected = item === button;
+          item.classList.toggle("active", selected);
+          item.setAttribute("aria-pressed", String(selected));
+        });
+
+        filterProducts();
+      });
+    });
+
+    productSearch.addEventListener("input", filterProducts);
+
+    // Preselect a service when someone clicks a service enquiry link
+    document.querySelectorAll("[data-service]").forEach(link => {
+      link.addEventListener("click", () => {
+        const serviceSelect = document.getElementById("enquiryType");
+        serviceSelect.value = link.dataset.service;
+      });
+    });
+
+    // Contact form: prepare a WhatsApp message for the user to review
+    document.getElementById("contactForm").addEventListener("submit", event => {
+      event.preventDefault();
+
+      const name = document.getElementById("visitorName").value.trim();
+      const contact = document.getElementById("visitorContact").value.trim();
+      const service = document.getElementById("enquiryType").value;
+      const message = document.getElementById("visitorMessage").value.trim();
+
+      if (!name || !service || !message) {
+        alert("Please complete your name, enquiry type and message.");
+        return;
+      }
+
+      const whatsappMessage = [
+        "Hi Keith / MOBYSIR,",
+        "",
+        "My name is: " + name,
+        contact ? "My contact: " + contact : "",
+        "Enquiry: " + service,
+        "",
+        "Message: " + message,
+        "",
+        "I found your website and would like to make an enquiry."
+      ].filter(Boolean).join("\n");
+
+      const whatsappURL =
+        "https://wa.me/254115257258?text=" +
+        encodeURIComponent(whatsappMessage);
+
+      window.open(whatsappURL, "_blank", "noopener,noreferrer");
+    });
+
+    // Back-to-top button
+    const backTop = document.getElementById("backTop");
+
+    window.addEventListener("scroll", () => {
+      backTop.classList.toggle("visible", window.scrollY > 500);
+    }, { passive: true });
+
+    backTop.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    // Reveal sections as they enter the screen
+    const revealItems = document.querySelectorAll(".reveal");
+
+    if ("IntersectionObserver" in window) {
+      const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("in-view");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.10 });
+
+      revealItems.forEach(item => revealObserver.observe(item));
+    } else {
+      revealItems.forEach(item => item.classList.add("in-view"));
+    }
+
+    // Current year
+    document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
+```
